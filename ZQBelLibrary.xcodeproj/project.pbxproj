@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45663A251EFA7276006CD137 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45663A241EFA7276006CD137 /* main.m */; };
+		45663A281EFA7276006CD137 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45663A271EFA7276006CD137 /* AppDelegate.m */; };
+		45663A2B1EFA7276006CD137 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45663A2A1EFA7276006CD137 /* ViewController.m */; };
+		45663A2E1EFA7276006CD137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45663A2C1EFA7276006CD137 /* Main.storyboard */; };
+		45663A301EFA7276006CD137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45663A2F1EFA7276006CD137 /* Assets.xcassets */; };
+		45663A331EFA7276006CD137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45663A311EFA7276006CD137 /* LaunchScreen.storyboard */; };
+		45663A3E1EFA7276006CD137 /* ZQBelLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45663A3D1EFA7276006CD137 /* ZQBelLibraryTests.m */; };
+		45663A491EFA7276006CD137 /* ZQBelLibraryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45663A481EFA7276006CD137 /* ZQBelLibraryUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45663A3A1EFA7276006CD137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45663A181EFA7276006CD137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45663A1F1EFA7276006CD137;
+			remoteInfo = ZQBelLibrary;
+		};
+		45663A451EFA7276006CD137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45663A181EFA7276006CD137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45663A1F1EFA7276006CD137;
+			remoteInfo = ZQBelLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45663A201EFA7276006CD137 /* ZQBelLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQBelLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45663A241EFA7276006CD137 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45663A261EFA7276006CD137 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45663A271EFA7276006CD137 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45663A291EFA7276006CD137 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45663A2A1EFA7276006CD137 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45663A2D1EFA7276006CD137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45663A2F1EFA7276006CD137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45663A321EFA7276006CD137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45663A341EFA7276006CD137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45663A391EFA7276006CD137 /* ZQBelLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQBelLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45663A3D1EFA7276006CD137 /* ZQBelLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQBelLibraryTests.m; sourceTree = "<group>"; };
+		45663A3F1EFA7276006CD137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45663A441EFA7276006CD137 /* ZQBelLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQBelLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45663A481EFA7276006CD137 /* ZQBelLibraryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQBelLibraryUITests.m; sourceTree = "<group>"; };
+		45663A4A1EFA7276006CD137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45663A1D1EFA7276006CD137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45663A361EFA7276006CD137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45663A411EFA7276006CD137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45663A171EFA7276006CD137 = {
+			isa = PBXGroup;
+			children = (
+				45663A221EFA7276006CD137 /* ZQBelLibrary */,
+				45663A3C1EFA7276006CD137 /* ZQBelLibraryTests */,
+				45663A471EFA7276006CD137 /* ZQBelLibraryUITests */,
+				45663A211EFA7276006CD137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45663A211EFA7276006CD137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45663A201EFA7276006CD137 /* ZQBelLibrary.app */,
+				45663A391EFA7276006CD137 /* ZQBelLibraryTests.xctest */,
+				45663A441EFA7276006CD137 /* ZQBelLibraryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45663A221EFA7276006CD137 /* ZQBelLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				45663A261EFA7276006CD137 /* AppDelegate.h */,
+				45663A271EFA7276006CD137 /* AppDelegate.m */,
+				45663A291EFA7276006CD137 /* ViewController.h */,
+				45663A2A1EFA7276006CD137 /* ViewController.m */,
+				45663A2C1EFA7276006CD137 /* Main.storyboard */,
+				45663A2F1EFA7276006CD137 /* Assets.xcassets */,
+				45663A311EFA7276006CD137 /* LaunchScreen.storyboard */,
+				45663A341EFA7276006CD137 /* Info.plist */,
+				45663A231EFA7276006CD137 /* Supporting Files */,
+			);
+			path = ZQBelLibrary;
+			sourceTree = "<group>";
+		};
+		45663A231EFA7276006CD137 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45663A241EFA7276006CD137 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45663A3C1EFA7276006CD137 /* ZQBelLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				45663A3D1EFA7276006CD137 /* ZQBelLibraryTests.m */,
+				45663A3F1EFA7276006CD137 /* Info.plist */,
+			);
+			path = ZQBelLibraryTests;
+			sourceTree = "<group>";
+		};
+		45663A471EFA7276006CD137 /* ZQBelLibraryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45663A481EFA7276006CD137 /* ZQBelLibraryUITests.m */,
+				45663A4A1EFA7276006CD137 /* Info.plist */,
+			);
+			path = ZQBelLibraryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45663A1F1EFA7276006CD137 /* ZQBelLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45663A4D1EFA7276006CD137 /* Build configuration list for PBXNativeTarget "ZQBelLibrary" */;
+			buildPhases = (
+				45663A1C1EFA7276006CD137 /* Sources */,
+				45663A1D1EFA7276006CD137 /* Frameworks */,
+				45663A1E1EFA7276006CD137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQBelLibrary;
+			productName = ZQBelLibrary;
+			productReference = 45663A201EFA7276006CD137 /* ZQBelLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45663A381EFA7276006CD137 /* ZQBelLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45663A501EFA7276006CD137 /* Build configuration list for PBXNativeTarget "ZQBelLibraryTests" */;
+			buildPhases = (
+				45663A351EFA7276006CD137 /* Sources */,
+				45663A361EFA7276006CD137 /* Frameworks */,
+				45663A371EFA7276006CD137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45663A3B1EFA7276006CD137 /* PBXTargetDependency */,
+			);
+			name = ZQBelLibraryTests;
+			productName = ZQBelLibraryTests;
+			productReference = 45663A391EFA7276006CD137 /* ZQBelLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45663A431EFA7276006CD137 /* ZQBelLibraryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45663A531EFA7276006CD137 /* Build configuration list for PBXNativeTarget "ZQBelLibraryUITests" */;
+			buildPhases = (
+				45663A401EFA7276006CD137 /* Sources */,
+				45663A411EFA7276006CD137 /* Frameworks */,
+				45663A421EFA7276006CD137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45663A461EFA7276006CD137 /* PBXTargetDependency */,
+			);
+			name = ZQBelLibraryUITests;
+			productName = ZQBelLibraryUITests;
+			productReference = 45663A441EFA7276006CD137 /* ZQBelLibraryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45663A181EFA7276006CD137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "李志权";
+				TargetAttributes = {
+					45663A1F1EFA7276006CD137 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					45663A381EFA7276006CD137 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45663A1F1EFA7276006CD137;
+					};
+					45663A431EFA7276006CD137 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45663A1F1EFA7276006CD137;
+					};
+				};
+			};
+			buildConfigurationList = 45663A1B1EFA7276006CD137 /* Build configuration list for PBXProject "ZQBelLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45663A171EFA7276006CD137;
+			productRefGroup = 45663A211EFA7276006CD137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45663A1F1EFA7276006CD137 /* ZQBelLibrary */,
+				45663A381EFA7276006CD137 /* ZQBelLibraryTests */,
+				45663A431EFA7276006CD137 /* ZQBelLibraryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45663A1E1EFA7276006CD137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45663A331EFA7276006CD137 /* LaunchScreen.storyboard in Resources */,
+				45663A301EFA7276006CD137 /* Assets.xcassets in Resources */,
+				45663A2E1EFA7276006CD137 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45663A371EFA7276006CD137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45663A421EFA7276006CD137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45663A1C1EFA7276006CD137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45663A2B1EFA7276006CD137 /* ViewController.m in Sources */,
+				45663A281EFA7276006CD137 /* AppDelegate.m in Sources */,
+				45663A251EFA7276006CD137 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45663A351EFA7276006CD137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45663A3E1EFA7276006CD137 /* ZQBelLibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45663A401EFA7276006CD137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45663A491EFA7276006CD137 /* ZQBelLibraryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45663A3B1EFA7276006CD137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45663A1F1EFA7276006CD137 /* ZQBelLibrary */;
+			targetProxy = 45663A3A1EFA7276006CD137 /* PBXContainerItemProxy */;
+		};
+		45663A461EFA7276006CD137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45663A1F1EFA7276006CD137 /* ZQBelLibrary */;
+			targetProxy = 45663A451EFA7276006CD137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45663A2C1EFA7276006CD137 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45663A2D1EFA7276006CD137 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45663A311EFA7276006CD137 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45663A321EFA7276006CD137 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45663A4B1EFA7276006CD137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45663A4C1EFA7276006CD137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45663A4E1EFA7276006CD137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZQBelLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kailu.ZQBelLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45663A4F1EFA7276006CD137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZQBelLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kailu.ZQBelLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45663A511EFA7276006CD137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZQBelLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kailu.ZQBelLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQBelLibrary.app/ZQBelLibrary";
+			};
+			name = Debug;
+		};
+		45663A521EFA7276006CD137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZQBelLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kailu.ZQBelLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQBelLibrary.app/ZQBelLibrary";
+			};
+			name = Release;
+		};
+		45663A541EFA7276006CD137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZQBelLibraryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kailu.ZQBelLibraryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZQBelLibrary;
+			};
+			name = Debug;
+		};
+		45663A551EFA7276006CD137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZQBelLibraryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kailu.ZQBelLibraryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZQBelLibrary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45663A1B1EFA7276006CD137 /* Build configuration list for PBXProject "ZQBelLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45663A4B1EFA7276006CD137 /* Debug */,
+				45663A4C1EFA7276006CD137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45663A4D1EFA7276006CD137 /* Build configuration list for PBXNativeTarget "ZQBelLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45663A4E1EFA7276006CD137 /* Debug */,
+				45663A4F1EFA7276006CD137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45663A501EFA7276006CD137 /* Build configuration list for PBXNativeTarget "ZQBelLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45663A511EFA7276006CD137 /* Debug */,
+				45663A521EFA7276006CD137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45663A531EFA7276006CD137 /* Build configuration list for PBXNativeTarget "ZQBelLibraryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45663A541EFA7276006CD137 /* Debug */,
+				45663A551EFA7276006CD137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45663A181EFA7276006CD137 /* Project object */;
+}
