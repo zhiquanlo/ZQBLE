@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LXj-FF-R6V">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,70 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Yp-3Z-YlG">
+                                <rect key="frame" x="0.0" y="84" width="375" height="40"/>
+                                <color key="backgroundColor" red="0.841388180265777" green="0.53561419472330918" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="TTc-N8-e2G"/>
+                                </constraints>
+                                <state key="normal" title="搜索"/>
+                                <connections>
+                                    <action selector="scanningEquipment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eBj-dM-qwC"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uZk-Py-zgM">
+                                <rect key="frame" x="0.0" y="124" width="375" height="543"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="0cv-zB-L4B"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="yGS-Tx-pj9"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0Yp-3Z-YlG" secondAttribute="trailing" id="3Cc-Im-a38"/>
+                            <constraint firstAttribute="trailing" secondItem="uZk-Py-zgM" secondAttribute="trailing" id="I0K-kI-Ftd"/>
+                            <constraint firstItem="uZk-Py-zgM" firstAttribute="top" secondItem="0Yp-3Z-YlG" secondAttribute="bottom" id="QV8-r1-JjP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uZk-Py-zgM" secondAttribute="bottom" id="WFB-UY-YMa"/>
+                            <constraint firstItem="0Yp-3Z-YlG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="e8e-hn-KfJ"/>
+                            <constraint firstItem="0Yp-3Z-YlG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="mM5-pf-hUl"/>
+                            <constraint firstItem="uZk-Py-zgM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uIB-ox-uAi"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="iDG-ue-Uq7">
+                        <barButtonItem key="rightBarButtonItem" title="断开所有连接" id="3ZR-O9-j26">
+                            <connections>
+                                <action selector="disconnectAll:" destination="BYZ-38-t0r" id="htK-G8-RpK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="uZk-Py-zgM" id="tUd-qc-L4l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1232.8" y="44.527736131934034"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sbj-aO-Hdm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LXj-FF-R6V" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EK3-PM-YIx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="XzG-oP-aSG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nU6-X2-0xm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="293.60000000000002" y="44.527736131934034"/>
         </scene>
     </scenes>
 </document>

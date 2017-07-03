@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4543C4E71EFBA76D001C7A8A /* ZQBelConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4543C4E61EFBA76D001C7A8A /* ZQBelConnection.m */; };
+		4543C4EB1EFBB988001C7A8A /* ReadServiceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4543C4E91EFBB988001C7A8A /* ReadServiceVC.m */; };
+		4543C4F51EFBCCA4001C7A8A /* interaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4543C4F41EFBCCA4001C7A8A /* interaction.m */; };
 		45663A251EFA7276006CD137 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45663A241EFA7276006CD137 /* main.m */; };
 		45663A281EFA7276006CD137 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45663A271EFA7276006CD137 /* AppDelegate.m */; };
 		45663A2B1EFA7276006CD137 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45663A2A1EFA7276006CD137 /* ViewController.m */; };
@@ -15,6 +18,8 @@
 		45663A331EFA7276006CD137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45663A311EFA7276006CD137 /* LaunchScreen.storyboard */; };
 		45663A3E1EFA7276006CD137 /* ZQBelLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45663A3D1EFA7276006CD137 /* ZQBelLibraryTests.m */; };
 		45663A491EFA7276006CD137 /* ZQBelLibraryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45663A481EFA7276006CD137 /* ZQBelLibraryUITests.m */; };
+		45663A581EFA72C4006CD137 /* ZQBle.m in Sources */ = {isa = PBXBuildFile; fileRef = 45663A571EFA72C4006CD137 /* ZQBle.m */; };
+		45663A5B1EFA7389006CD137 /* ZQBelScanning.m in Sources */ = {isa = PBXBuildFile; fileRef = 45663A5A1EFA7389006CD137 /* ZQBelScanning.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4543C4E51EFBA76D001C7A8A /* ZQBelConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQBelConnection.h; sourceTree = "<group>"; };
+		4543C4E61EFBA76D001C7A8A /* ZQBelConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQBelConnection.m; sourceTree = "<group>"; };
+		4543C4E81EFBB988001C7A8A /* ReadServiceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadServiceVC.h; sourceTree = "<group>"; };
+		4543C4E91EFBB988001C7A8A /* ReadServiceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadServiceVC.m; sourceTree = "<group>"; };
+		4543C4F31EFBCCA4001C7A8A /* interaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interaction.h; sourceTree = "<group>"; };
+		4543C4F41EFBCCA4001C7A8A /* interaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = interaction.m; sourceTree = "<group>"; };
 		45663A201EFA7276006CD137 /* ZQBelLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQBelLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45663A241EFA7276006CD137 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45663A261EFA7276006CD137 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,10 @@
 		45663A441EFA7276006CD137 /* ZQBelLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQBelLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45663A481EFA7276006CD137 /* ZQBelLibraryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQBelLibraryUITests.m; sourceTree = "<group>"; };
 		45663A4A1EFA7276006CD137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45663A561EFA72C4006CD137 /* ZQBle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQBle.h; sourceTree = "<group>"; };
+		45663A571EFA72C4006CD137 /* ZQBle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQBle.m; sourceTree = "<group>"; };
+		45663A591EFA7389006CD137 /* ZQBelScanning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQBelScanning.h; sourceTree = "<group>"; };
+		45663A5A1EFA7389006CD137 /* ZQBelScanning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQBelScanning.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				45663A271EFA7276006CD137 /* AppDelegate.m */,
 				45663A291EFA7276006CD137 /* ViewController.h */,
 				45663A2A1EFA7276006CD137 /* ViewController.m */,
+				4543C4E81EFBB988001C7A8A /* ReadServiceVC.h */,
+				4543C4E91EFBB988001C7A8A /* ReadServiceVC.m */,
+				4543C4F31EFBCCA4001C7A8A /* interaction.h */,
+				4543C4F41EFBCCA4001C7A8A /* interaction.m */,
+				45663A561EFA72C4006CD137 /* ZQBle.h */,
+				45663A571EFA72C4006CD137 /* ZQBle.m */,
+				45663A591EFA7389006CD137 /* ZQBelScanning.h */,
+				45663A5A1EFA7389006CD137 /* ZQBelScanning.m */,
+				4543C4E51EFBA76D001C7A8A /* ZQBelConnection.h */,
+				4543C4E61EFBA76D001C7A8A /* ZQBelConnection.m */,
 				45663A2C1EFA7276006CD137 /* Main.storyboard */,
 				45663A2F1EFA7276006CD137 /* Assets.xcassets */,
 				45663A311EFA7276006CD137 /* LaunchScreen.storyboard */,
@@ -207,6 +232,7 @@
 				TargetAttributes = {
 					45663A1F1EFA7276006CD137 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y3H7W8C749;
 						ProvisioningStyle = Automatic;
 					};
 					45663A381EFA7276006CD137 = {
@@ -273,7 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45663A581EFA72C4006CD137 /* ZQBle.m in Sources */,
 				45663A2B1EFA7276006CD137 /* ViewController.m in Sources */,
+				4543C4E71EFBA76D001C7A8A /* ZQBelConnection.m in Sources */,
+				45663A5B1EFA7389006CD137 /* ZQBelScanning.m in Sources */,
+				4543C4EB1EFBB988001C7A8A /* ReadServiceVC.m in Sources */,
+				4543C4F51EFBCCA4001C7A8A /* interaction.m in Sources */,
 				45663A281EFA7276006CD137 /* AppDelegate.m in Sources */,
 				45663A251EFA7276006CD137 /* main.m in Sources */,
 			);
@@ -426,7 +457,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y3H7W8C749;
 				INFOPLIST_FILE = ZQBelLibrary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kailu.ZQBelLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,7 +470,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y3H7W8C749;
 				INFOPLIST_FILE = ZQBelLibrary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kailu.ZQBelLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +544,7 @@
 				45663A4F1EFA7276006CD137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45663A501EFA7276006CD137 /* Build configuration list for PBXNativeTarget "ZQBelLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +553,7 @@
 				45663A521EFA7276006CD137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45663A531EFA7276006CD137 /* Build configuration list for PBXNativeTarget "ZQBelLibraryUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +562,7 @@
 				45663A551EFA7276006CD137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
